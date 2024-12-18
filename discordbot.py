@@ -13,9 +13,7 @@ async def on_ready():
 
 @bot.event
 async def on_member_join(member):
-    await member.send(
-        f'Welcome to the server, {member.mention}! Enjoy your stay here.'
-    )
+    await member.send(f"Welcome to the server, {member.mention}! Enjoy your stay here.")
 
 @bot.slash_command(name="hello", description="Say hello to the bot")
 async def hello(ctx: discord.ApplicationContext):
