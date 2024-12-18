@@ -1,2 +1,1 @@
-pip install py-cord
-pip install python-dotenv
+Bot do discord bonito feito por MontasAcabado e Climbby 😀
