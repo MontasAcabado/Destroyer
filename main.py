@@ -11,7 +11,7 @@ from eventos.on_member_join import setup as evento_entra_membro
 
 
 
-
+#ola
 
 # Vai buscar o token
 load_dotenv()
