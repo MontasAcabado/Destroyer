@@ -4,6 +4,7 @@ import os
 
 # comandos
 from comandos.hello import setup as comando_hello
+from comandos.projeto import setup as comando_projeto
 # eventos
 from eventos.on_ready import setup as evento_inicializa
 from eventos.on_member_join import setup as evento_entra_membro
@@ -33,6 +34,7 @@ evento_entra_membro(bot)
 # -------- COMANDOS --------
 
 comando_hello(bot)
+comando_projeto(bot)
 
 
 
