@@ -6,6 +6,7 @@ import os
 from comandos.hello import setup as comando_hello
 from comandos.projeto import setup as comando_projeto
 from comandos.bestadmin import setup as comando_bestadmin
+from comandos.contador import setup as comando_contador
 # eventos
 from eventos.on_ready import setup as evento_inicializa
 from eventos.on_member_join import setup as evento_entra_membro
@@ -38,7 +39,7 @@ evento_entra_membro(bot)
 comando_hello(bot)
 comando_projeto(bot)
 comando_bestadmin(bot)
-
+comando_contador(bot)
 
 
 
